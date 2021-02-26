@@ -9,14 +9,12 @@
 * Fais l'installation des frameworks
 * Puis reviens au terminal et fais ceci :
 ```
-    ..
-    ..
-    ..
+    composer install
+    php bin/console doctrine:database:create
+    php bin/console make:migration
+    php bin/console doctrine:migrations:migrate
     symfony server:start
 ```
 
 ## Frameworks
 * Symfony
-
-## Version en ligne
-* http://
